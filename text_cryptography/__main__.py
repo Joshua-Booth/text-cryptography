@@ -202,7 +202,7 @@ class Cryptography:
         message = """
 Please choose from the following encryption/decryption methods:
 Caesar Cipher: 'C'
-Monoalphetic Cipher: 'M'
+Monoalphabetic Cipher: 'M'
 Polyalphabetic Cipher: 'P'"""
 
         value = value.upper() if value is not None else value
